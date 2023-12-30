@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header_nav a {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.header_nav a:hover {
+  color: #BD1D1D;
+}
+
+#hero {
+  background: #95B9C9;
+  padding: 50px 0;
+}
+.hero_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero_title {
+  color: #33332D;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 3.2px;
+}
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.hero_block {
+  margin: 40px 50px;
+  padding: 20px;
+  width: 337px;
+  height: 276px;
+  border-radius: 15px;
+  background: #D9D9D9;
+}
+
+.hero_img {
+  /* background: url(/img/image\ 3.png) no-repeat center / cover; */
+  width: 337px;
+  height: 205px;
+  border-radius: 10px;
+}
+h4 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.72px;
+}
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn_price {
+  width: 154px;
+  height: 40px;
+  border-radius: 10px;
+  background: #DDAA27;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
+  border: #DDAA27;
+  letter-spacing: 0.6px;
+}
+
+
+input {
+  width: 200px;
+  height: 50px;
+  padding: 10px 30px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+}
+
+form {
+  margin: 110px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+input {
+  width: 549px;
+  height: 67px;
+  border-radius: 10px;
+  background: #D9D9D9;
+  border: none;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2.4px;
+  opacity: 0.8;
+  outline: none;
+}
+
+.form_btn {
+  width: 254.1px;
+  height: 80px;
+  border-radius: 10px;
+  background: #DDAA27;
+  border: #DDAA27;
+  color: #FFF;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 1.08px;
+}
